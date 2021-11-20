@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kordamp.ikonli.javafx.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDone="#onDragDone" onMouseDragged="#onMouseDragged" onMouseExited="#onMouseExited" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" prefHeight="540.0" prefWidth="400.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.undecoratedscene.UIController">
+   <children>
+      <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="400.0" styleClass="dark-panel">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <children>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="18.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#open_settings" prefHeight="65.0" prefWidth="65.0" styleClass="main-btn">
+               <graphic>
+                  <FontIcon iconLiteral="fa-gear" iconSize="30" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="icons" />
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="18.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#open_user_profile" prefHeight="65.0" prefWidth="65.0" styleClass="main-btn">
+               <graphic>
+                  <FontIcon iconLiteral="fa-user" iconSize="30" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="icons" />
+               </graphic>
+               <HBox.margin>
+                  <Insets left="35.0" />
+               </HBox.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="18.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="65.0" prefWidth="65.0" styleClass="main-btn">
+               <graphic>
+                  <FontIcon iconLiteral="fa-trophy" iconSize="30" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="icons" />
+               </graphic>
+               <HBox.margin>
+                  <Insets left="35.0" />
+               </HBox.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="18.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="65.0" prefWidth="65.0" styleClass="main-btn">
+               <graphic>
+                  <FontIcon iconLiteral="fa-bar-chart" iconSize="30" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="icons" />
+               </graphic>
+               <HBox.margin>
+                  <Insets left="35.0" />
+               </HBox.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="215.0" layoutY="18.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="65.0" prefWidth="65.0" text=" " />
+         </children>
+      </HBox>
+      <Pane layoutY="96.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="400.0" />
+   </children>
+</AnchorPane>

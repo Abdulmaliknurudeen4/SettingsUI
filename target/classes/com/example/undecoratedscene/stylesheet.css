@@ -1,0 +1,27 @@
+.parent{
+    -fx-background-color: transparent;
+    -fx-opacity: 0;
+}
+.dark-panel{
+    -fx-background-color: #45515F;
+}
+.main-btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-text-fill: transparent;
+}
+.icons{
+    -fx-fill: #596575;
+}
+.main-btn:hover{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-color: #F3A978;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-radius: 0px;
+    -fx-text-fill: transparent;
+}
+
+.main-btn:hover .icons{
+    -fx-fill: white;
+}

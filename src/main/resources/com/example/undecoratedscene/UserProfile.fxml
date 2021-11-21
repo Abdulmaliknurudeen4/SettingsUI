@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import org.kordamp.ikonli.javafx.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="400.0" styleClass="dark-panel" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.undecoratedscene.UserProfile">
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="400.0" styleClass="dark-panel" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.undecoratedscene.UserProfileController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" styleClass="circle">
+         <graphic>
+            <FontIcon iconColor="#596575" iconLiteral="fa-user" iconSize="120" strokeType="OUTSIDE" strokeWidth="0.0" />
+         </graphic></Label>
+      <Label layoutX="148.0" layoutY="274.0" text="Virtual Coder 20" textFill="WHITE">
+         <font>
+            <Font name="Baloo Bhai" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="278.0" prefHeight="10.0" prefWidth="10.0" styleClass="online" />
+      <Label layoutX="93.0" layoutY="307.0" prefHeight="51.0" prefWidth="241.0" text="Lorem Ipsum is a dummy text used as a placeholder in webpages." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Baloo Bhai" size="13.0" />
+         </font></Label>
+      <JFXButton buttonType="RAISED" layoutX="248.0" layoutY="382.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" ripplerFill="WHITE" styleClass="buttons" text="CANCEL" />
+   </children>
 </AnchorPane>

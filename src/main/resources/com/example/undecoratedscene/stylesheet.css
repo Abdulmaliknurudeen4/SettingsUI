@@ -1,5 +1,30 @@
-.parent{
+.root, .viewport, .parent{
     -fx-background-color: transparent;
+}
+/* Styling the slider track */
+.jfx-slider > .track {
+    -fx-background-color: #596575;
+}
+
+/* Styling the slider thumb */
+.jfx-slider > .thumb {
+    -fx-background-color: #F3A978;
+}
+
+/* Styling the filled track */
+.jfx-slider > .colored-track {
+    -fx-background-color: #F3A978;
+}
+
+/* Styling the animated thumb */
+.jfx-slider > .animated-thumb {
+    -fx-background-color: #F3A978;
+}
+
+/* Styling the slider value text inside animated thumb */
+.jfx-slider .slider-value {
+    -fx-fill: white;
+    -fx-stroke: white;
 }
 .dark-panel{
     -fx-background-color: #45515F;
@@ -23,4 +48,26 @@
 
 .main-btn:hover .icons{
     -fx-fill: white;
+}
+
+.buttons{
+    -fx-background-color: #F3A978;
+    -fx-background-radius: 0px;
+    -fx-text-fill: white;
+}
+.buttons:hover{
+    -fx-background-color: #F3A978;
+    -fx-background-radius: 0px;
+    -fx-text-fill: white;
+}
+
+.circle{
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+    -fx-border-color: #596575;
+    -fx-border-width: 2px;
+}
+.online{
+    -fx-background-color: #00cc33;
+    -fx-background-radius: 100%;
 }
